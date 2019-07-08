@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-project(helloworld VERSION 0.0.1)
+project(helloworld VERSION 0.0.2)
 
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
