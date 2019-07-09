@@ -10,8 +10,9 @@ script:
 - cmake --build .
 - cmake --build . --target test
 - cmake --build . --target package
+- cp helloworld-0.0.$TRAVIS_BUILD_NUMBER-Linux.deb ../
 - cd .. 
-- pwd  
+- ls
 deploy:
   before_script:
   provider: script
