@@ -10,10 +10,10 @@ script:
 - cmake --build .
 - cmake --build . --target test
 - cmake --build . --target package
+- cd 
+- pwd  
 deploy:
   before_script:
-- cd
-- pwd
   provider: script
   skip_cleanup: true
   script:
